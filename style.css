@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.nav{
+    background-color: #414C52;
+    overflow: hidden;
+}
+.nav .logo{
+   float: left;
+   width:20%;
+   text-align: center;
+}
+.menu{
+    width: 78%;
+}
+.menu ul li{
+    float: left;
+    
+}
+.menu ul li a{
+    display: block;
+    padding: 16px 10px;
+    color: #CED2D5;
+    text-transform: uppercase;
+    
+}
+.menu ul li a:hover{
+    color: #D56227;
+    border-bottom: 4px solid #D56227;
+}
+.menu ul li:first-child a{
+    color: #D56227;
+}
+
+/* slider start*/
+
+.slider{
+    background: url(img/hero-bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.slider_desc{
+    position: absolute;
+    top:60%;
+    left: 30%;
+    color: white;
+    line-height: 30px;
+
+}
+.slider_desc h2{
+    background-color: #D56227;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    margin-bottom: 40px;
+}
+.slider_desc a{
+    color: white;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    background-color: #5898C4;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: .3px;
+    transition: 1s;
+}
+.slider_desc a:hover{
+    background-color: #E1E2E6;
+    color: #D56227;
+}
+/* slider end*/
+
+/* CLIENT_SUCCESS MESSSAGE START */
+ .client_success{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    overflow: hidden;
+ }
+.msg_heading h2{
+    text-transform: uppercase;
+    color: #5A5E61;
+    font-size: 30px;
+    word-spacing: 3px;
+    margin-bottom: 20px;
+}
+.msg img{
+    width: 80px;
+    height:80px;
+    padding-bottom: 5px;
+}
+.msg{
+    float: left;
+    width: 225px;
+    margin-right: 20px;
+   
+}
+.msg:last-child{
+  
+    margin-right: 0px;
+}
+.msg h3{
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    padding-bottom: 7px;
+    color: #515154;
+}
+.msg p{
+    color: #BEBEBE;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.msg a{
+    display: block;
+    width: 80px;
+    color: #5D6164;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    background-color: #FDFDFD;
+    border: 2px solid #AFAFAF;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: .3px;
+    transition: 1s;
+}
+.msg .msg_active{
+    background-color: #E1E2E6;
+    color: #D56227;
+    border: 2px solid #D56227;
+}
+.msg a:hover{
+    background-color: #E1E2E6;
+    color: #D56227;
+    border: 2px solid #D56227;
+}
+
+/* CLIENT_SUCCESS MESSSAGE END */
+
+
+ /* CLIENT ADVICE SECTION start */
+
+ .client_advice{
+    background-color: #E7ECF2;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+    
+}
+.advice_heading{
+    text-align: center;
+}
+.advice_heading h2{
+    color: #393E42;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.advice_heading p{
+    color: #4B5054;
+    font-size: 18px;
+    letter-spacing: .1px;
+    margin-bottom: 60px;
+}
+.advice img{
+    width: 290px;
+    height: 170px;
+}
+.advice{
+    float: left;
+    width: 290px;
+    margin-right: 25px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.advice:last-child{
+    margin-right: 0px;
+}
+.advice h3{
+    color: #D56227;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+
+}
+.advice p{
+    padding: 20px 20px;
+    text-align: center;
+}
+ /* CLIENT ADVICE SECTION END */
+
+ /* INVESTMENT DESCRIPTION PART START */
+
+ .investment_description{
+     /* padding-top: 40px;
+     padding-bottom: 40px; */
+     background-color: #929FA7;
+     overflow: hidden;
+ }
+ .inv_desc{
+     width: 460px;
+     background-color: #D56227;
+     float:left;
+ }
+ .inv_desc h2{
+     font-size: 30px;
+     text-transform: capitalize;
+     padding: 10px;
+     color: white;
+     margin-top: 40px;
+ }
+ .inv_desc ul li{
+    list-style-type: circle;
+    color: #FFBCA6;
+    padding: 5px;
+    margin-left: 25px;
+
+}
+.inv_desc a{
+    display: block;
+    width: 100px;
+    color: #fff;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    border: 2px solid #fff;
+    font-weight: bold;
+    letter-spacing: .3px;
+    transition: 1s;
+    margin: 25px;
+    margin-bottom: 40px;
+}
+
+
+/* .msg a:hover{
+    background-color: #E1E2E6;
+    color: #D56227;
+    border: 2px solid #D56227;
+} */
+ .sv_mone_desc{
+     float: left;
+     background-color: #424D53;
+     width: 460px;
+     padding-left: 40px;
+ }
+
+ .sv_mone_desc h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 10px;
+    color: white;
+    margin-top: 40px;
+
+}
+.sv_mone_desc ul li{
+    list-style-type: circle;
+    color: #9DA8AE;
+    padding: 5px;
+    margin-left: 25px;
+}
+.sv_mone_desc a{
+    display: block;
+    width: 100px;
+    color: #fff;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    border: 2px solid #fff;
+    font-weight: bold;
+    letter-spacing: .3px;
+    transition: 1s;
+    margin: 25px;
+    margin-bottom: 40px;
+}
+.sv_mone_desc p{
+    margin-left: 15px;
+    padding: 1px 0px;
+    color: #9DA8AE;
+}
+
+ /* INVESTMENT DESCRIPTION PART END */
+
+
+/* FOTTER SECTION START */
+.footer_top_section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #333333;
+    overflow: hidden;
+}
+ .footer_logo{
+    float: left;
+    width:230px;
+    text-align: justify;
+ }
+ .footer_logo p{
+     color: #779FAE;
+     padding: 5px 12px;
+ }
+.quick_links{
+    float: left;
+    width: 230px;
+    margin-left: 20px;
+}
+.quick_links h3{
+    text-transform: uppercase;
+    color: #D4D4D4;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.quick_links ul li a{
+    display: block;
+    color: #ADB9BD;
+    padding: 4px 0px;
+}
+.quick_links ul li a:hover{
+    color: #007ACC;
+}
+.contact_footer{
+    float: left;
+    width: 230px;
+}
+.contact_footer h3{
+    text-transform: uppercase;
+    color: #D4D4D4;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact_footer p{
+    color: #ADB9BD;
+    padding: 4px 0px;
+}
+.find_footer{
+    float:left;
+    width: 230px;
+}
+.find_footer h3{
+    text-transform: uppercase;
+    color: #D4D4D4;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.find_footer textarea{
+    width: 200px;
+    border: 2px solid #ADB9BD;
+}
+
+/* footer_bottom */
+.footer_bottom_section{
+    background-color: #1E1E1E;
+    text-align: center;
+}
+.foot{
+    color: #D4D4D4;
+    padding: 10px 0px; 
+}
+ /* FOTTER SECTION END */
+
+ /* CONTACT SECTION start */
+
+ .contact_section{
+     width: 100%;
+     height: 500px;
+     background: url(img/team-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center bottom;
+     
+ }
+ .contact_heading h3{
+     color: red;
+     padding-top: 80px;
+     font-size: 24px;
+     text-transform: uppercase;
+     text-align: center;
+ }
+.contact_form{
+    padding-top: 100px;
+    float: left;
+    text-align: center;
+}
+form input{
+    background: none;
+    width: 300px;
+    padding: 5px 5px;
+    margin-right: 150px;
+    margin-top: 10px;
+    color: black;
+    border: 3px solid #9DA8AE;
+}
+.text_msg{
+    padding-top: 100px;
+    display: block;
+}
+
+.text_msg textarea{
+    background: none;
+    width: 300px;
+    color: black;
+    border: 3px solid #9DA8AE;
+    font-size: 18px;
+}
+.text_msg button{
+    display: block;
+    width: 88px;
+    padding: 8px 14px;
+    background-color: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    border: 3px solid #9DA8AE;
+}
+ /* CONTACT SECTION END */
+ 
